@@ -1,0 +1,49 @@
+---
+---
+
+<nav class="fixed w-full z-50 top-0 start-0 border-b border-white/20 bg-white/70 backdrop-blur-md transition-all">
+  <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between px-6 py-4">
+    <div class="flex lg:flex-1">
+      <a href="#" class="-m-1.5 p-1.5">
+        <span class="sr-only">Caravan Corridors</span>
+        <span class="text-xl font-bold tracking-tight text-slate-900">Caravan Corridors</span>
+      </a>
+    </div>
+    <div class="flex md:order-2 space-x-3 md:space-x-4 rtl:space-x-reverse">
+      <a href="https://github.com/antigravity-code" target="_blank" class="text-slate-600 hover:text-slate-900 font-medium text-sm px-4 py-2 text-center transition-colors">
+        GitHub
+      </a>
+      <a href="#download" class="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:outline-none focus:ring-indigo-300 font-medium rounded-lg text-sm px-4 py-2 text-center transition-colors shadow-lg shadow-indigo-600/30">
+        Download v1.0
+      </a>
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-slate-500 rounded-lg md:hidden hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-slate-200" aria-controls="navbar-sticky" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-slate-100 rounded-lg bg-slate-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
+        <li>
+          <a href="#schema" class="block py-2 px-3 text-slate-700 rounded hover:bg-slate-100 md:hover:bg-transparent md:hover:text-indigo-600 md:p-0 transition-colors">Schema</a>
+        </li>
+        <li>
+          <a href="#how-it-works" class="block py-2 px-3 text-slate-700 rounded hover:bg-slate-100 md:hover:bg-transparent md:hover:text-indigo-600 md:p-0 transition-colors">How It Works</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+    // Simple toggle for mobile menu
+    const button = document.querySelector('[data-collapse-toggle="navbar-sticky"]');
+    const menu = document.getElementById('navbar-sticky');
+    
+    if (button && menu) {
+        button.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    }
+</script>
