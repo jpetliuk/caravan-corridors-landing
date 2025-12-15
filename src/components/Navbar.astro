@@ -1,11 +1,13 @@
 ---
+import { Image } from 'astro:assets';
+import logo from '../assets/logo.jpeg';
 ---
 
 <nav class="fixed w-full z-50 top-0 start-0 border-b border-white/20 bg-white/70 backdrop-blur-md transition-all">
   <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between px-6 py-4">
     <div class="flex lg:flex-1">
-      <a href="/caravan-corridors-landing/" class="-m-1.5 p-1.5">
-        <span class="sr-only">Caravan Corridors</span>
+      <a href="/caravan-corridors-landing/" class="-m-1.5 p-1.5 flex items-center gap-2">
+        <Image src={logo} alt="Caravan Logo" class="h-8 w-auto rounded-md" />
         <span class="text-xl font-bold tracking-tight text-slate-900">Caravan Corridors</span>
       </a>
     </div>
