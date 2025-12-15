@@ -1,0 +1,72 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Download Caravan Field Recorder">
+	<Navbar />
+	<main class="pt-32 pb-20 px-6">
+        <div class="mx-auto max-w-7xl">
+            <div class="text-center">
+                <h1 class="text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl mb-6">
+                    Download <span class="text-indigo-600">Caravan</span>
+                </h1>
+                <p class="mt-6 text-lg leading-8 text-slate-600 max-w-2xl mx-auto mb-16">
+                    Get the latest version of Caravan Field Recorder for your operating system.
+                    Current Version: <span class="font-mono font-bold text-slate-900">v1.0.0-beta</span>
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- macOS -->
+                <div class="bg-white rounded-2xl p-8 shadow-xl ring-1 ring-slate-900/10 flex flex-col items-center text-center transition-transform hover:-translate-y-1">
+                    <div class="h-16 w-16 bg-slate-100 rounded-2xl flex items-center justify-center mb-6 text-slate-900">
+                        <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.21-1.96 1.07-3.11-1.05.05-2.31.74-3.03 1.58-.67.77-1.24 2.02-1.01 3.12 1.17.09 2.35-.73 2.97-1.59z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">macOS</h3>
+                    <p class="text-sm text-slate-500 mb-8">Universal Binary (Apple Silicon & Intel)<br>Requires macOS 11.0+</p>
+                    <a href="#" class="mt-auto w-full rounded-lg bg-slate-900 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 transition-colors flex items-center justify-center gap-2">
+                        Download for Mac
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                    </a>
+                </div>
+
+                <!-- Windows -->
+                <div class="bg-white rounded-2xl p-8 shadow-xl ring-1 ring-slate-900/10 flex flex-col items-center text-center transition-transform hover:-translate-y-1">
+                    <div class="h-16 w-16 bg-slate-100 rounded-2xl flex items-center justify-center mb-6 text-slate-900">
+                        <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor"><path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4h-13.05M0 12.552L9.75 12.5v9.449l-9.75-1.349m10.949-8.1h13.05v11.45l-13.05-1.85"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Windows</h3>
+                    <p class="text-sm text-slate-500 mb-8">Windows 10/11 (64-bit)<br>.msi Installer</p>
+                    <a href="#" class="mt-auto w-full rounded-lg bg-indigo-600 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 transition-colors flex items-center justify-center gap-2">
+                        Download for Windows
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                    </a>
+                </div>
+
+                <!-- Linux -->
+                <div class="bg-white rounded-2xl p-8 shadow-xl ring-1 ring-slate-900/10 flex flex-col items-center text-center transition-transform hover:-translate-y-1">
+                    <div class="h-16 w-16 bg-slate-100 rounded-2xl flex items-center justify-center mb-6 text-slate-900">
+                       <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor"><path d="M12.005 0C5.39 0 0 5.39 0 12.005c0 6.615 5.39 12.005 12.005 12.005 6.615 0 12.005-5.39 12.005-12.005C24.01 5.39 18.62 0 12.005 0zm2.25 18.475a1.275 1.275 0 11-2.55 0 1.275 1.275 0 012.55 0zm4.275-5.325a1.275 1.275 0 11-2.55 0 1.275 1.275 0 012.55 0zM12.005 7.12a3.835 3.835 0 110 7.67 3.835 3.835 0 010-7.67z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Linux</h3>
+                    <p class="text-sm text-slate-500 mb-8">AppImage & .deb<br>Ubuntu, Fedora, Debian</p>
+                    <a href="#" class="mt-auto w-full rounded-lg bg-slate-900 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 transition-colors flex items-center justify-center gap-2">
+                        Download for Linux
+                        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Notes -->
+            <div class="mx-auto max-w-2xl mt-16 text-center">
+                <p class="text-sm text-slate-500">
+                    By downloading, you agree to the <a href="#" class="underline hover:text-indigo-600">Terms of Service</a> and <a href="#" class="underline hover:text-indigo-600">Privacy Policy</a>.
+                    Problems installing? View our <a href="https://github.com/antigravity-code" class="text-indigo-600 hover:text-indigo-500 font-semibold">Installation Guide</a>.
+                </p>
+            </div>
+        </div>
+    </main>
+	<Footer />
+</Layout>
