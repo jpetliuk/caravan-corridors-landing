@@ -1,46 +1,48 @@
-# Astro Starter Kit: Basics
+# Caravan Field Recorder - Landing Page
 
-```sh
-npm create astro@latest -- --template basics
-```
+The official landing page for **Caravan Field Recorder**, an offline-first digital data collection tool designed for modern archaeology.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Live Site
+https://jpetliuk.github.io/caravan-corridors-landing/
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🛠 Tech Stack
+*   **Framework**: [Astro](https://astro.build/) - High performance static site generator.
+*   **Styling**: [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework.
+*   **Deployment**: GitHub Pages (via GitHub Actions).
 
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Command           | Action                                       |
+| :---------------- | :------------------------------------------- |
+| `npm install`     | Installs dependencies                        |
+| `npm run dev`     | Starts local dev server at `localhost:4321`  |
+| `npm run build`   | Build your production site to `./dist/`      |
+| `npm run preview` | Preview your build locally, before deploying |
 
-## 👀 Want to learn more?
+## 📦 Deployment
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+This project is configured to automatically deploy to GitHub Pages whenever changes are pushed to the `main` branch.
+
+### Workflow
+The workflow is defined in `.github/workflows/deploy.yml` and performs the following:
+1.  Checkouts the code.
+2.  Sets up Node.js.
+3.  Installs dependencies (`npm ci`).
+4.  Builds the site (`npm run build`).
+5.  Deploys the `./dist` folder to GitHub Pages.
+
+## 📂 Project Structure
+
+```text
+/
+├── public/                 # Static assets (favicon, etc.)
+├── src/
+│   ├── assets/             # Images and optimized assets
+│   ├── components/         # Reusable Astro components (Hero, Navbar, etc.)
+│   ├── layouts/            # Page layouts
+│   └── pages/              # Routing (index.astro, download.astro)
+├── astro.config.mjs        # Astro configuration (base path, integrations)
+└── tailwind.config.mjs     # Tailwind configuration
+```
