@@ -1,10 +1,10 @@
 # Caravan Landing Page - Project Brief
 
 ## 🎯 Goal
-Create a modern, high-performance landing page for **Caravan Field Recorder**, an offline-first archaeological data collection tool.
+Create a modern, high-performance landing page for **Caravan Corridors Database**, an offline-first archaeological data collection tool.
 
 ## 📝 Project Identity
-- **Name**: Caravan Field Recorder
+- **Name**: Caravan Corridors Database
 - **Tagline**: "The Offline-First Digital Field Recorder for Modern Archaeology"
 - **Key Value Props**:
   - **Offline-First**: Built for remote grid squares without signal.

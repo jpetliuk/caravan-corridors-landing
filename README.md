@@ -1,6 +1,6 @@
-# Caravan Field Recorder - Landing Page
+# Caravan Corridors Database - Landing Page
 
-The official landing page for **Caravan Field Recorder**, an offline-first digital data collection tool designed for modern archaeology.
+The official landing page for **Caravan Corridors Database**, an offline-first digital data collection tool designed for modern archaeology.
 
 ## 🚀 Live Site
 https://jpetliuk.github.io/caravan-corridors-landing/

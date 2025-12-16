@@ -4,12 +4,12 @@ The following answers are based on a technical analysis of the current `caravan-
 
 ## 1. Product Identity & Scope
 *   **App vs. Schema:**
-    *   **Answer:** The primary downloadable product is the **"Caravan Field Recorder"** (the App). The "Caravan Corridors" name refers to the underlying database schema and the broader research project.
-    *   **Recommendation:** Pivot the landing page to sell the "Caravan Field Recorder" app as the tool users download, while mentioning it enforces the "Caravan Corridors" data standard.
+    *   **Answer:** The primary downloadable product is the **"Caravan Corridors Database"** (the App). The "Caravan Corridors" name refers to the underlying database schema and the broader research project.
+    *   **Recommendation:** Pivot the landing page to sell the "Caravan Corridors Database" app as the tool users download, while mentioning it enforces the "Caravan Corridors" data standard.
 
 *   **Naming:**
     *   **Answer:** They are distinct.
-    *   **App Name:** Caravan Field Recorder
+    *   **App Name:** Caravan Corridors Database
     *   **Database/Standard Name:** Caravan Corridors
     *   **File Format:** `.db` (SQLite)
 
